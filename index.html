@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./styleSheet.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="stylesheet" href="./all.min.css" />
+        
     </head>
     <body>
-        <p>Hello Dad!</p>
-        <a href="./aboutMe.html">About Me</a>
+        <h1>Ed Fage</h1>
+        <nav>
+            <ul class="navigation-items">
+                <li id="list-item-1" class="navigation-item"><a href="https://drive.google.com/file/d/1Zi-irgLFgfi3QDe2mZXfIcBUB9AIj_jO/view?usp=sharing">CV</a></li>
+                <li class="navigation-item"><a href="mailto:edfage@gmail.com">Contact Me</a></li>
+            </ul>
+        </nav>
+    <div class="about-me-container">
+        <div class="about-me-text" id="about-me-1">
+            <h2 >About me</h2>
+            <p>Hi! I'm an Economics and Management student at the University of Oxford.
+            </p>
+            <p>I'm interested in:</p>
+            <ul>
+                <li>Effective Altruism</li>
+                <li>Coding</li>
+                <li>Brazilian Jiu Jitsu</li>
+                <li>Rowing</li>
+                <li>Podcasts</li>
+            </ul>
+        </div>
+        <div>
+            <img class="about-me-image"
+                src="./myHeadshot.jpeg"
+                alt="A headshot of me smiling">
+        </div>
+    </div>
+    <script src="./main.js"></script>
     </body>
 </html>
